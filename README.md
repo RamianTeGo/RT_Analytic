@@ -1,5 +1,7 @@
 <h1 align="center"> PROYECTO SINIESTROS VIALES 🚀</h1>
 
+![Alt text](image-1.png)
+
 ## INTRODUCCION
 En este proyecto se realiza un determinado analisis de los siniestros viales en los años comprendidos entre
 2016 a 2021 en la ciudad de Buenos Aires. La informacion es extraida de El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires.
@@ -13,11 +15,11 @@ Cumplir el Rol de Data Analytic con el fin de generar información que le permit
 
 ** KPIs
 
+* Indicador de  Porcentaje de Víctimas en Avenidas
+
 * Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior
 
 * Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior
-
-* 
 
 
 ## PROCESOS
@@ -41,31 +43,40 @@ Este repositorio contiene los archivos csv, objeto del desarrollo de este proyec
 
   3. Analisis de los datos
 
-    Se destacan estos analisis basicos de los datos:
+  Se destacan estos analisis basicos de los datos:
 
-    - Del periodo de años comprendido en la data, los años con mayor cantidad de incidentes son 2016 y 2018 con mas de 140. 
-    - La principal via donde se presentan los accidentes es en la Avenida y la Gral Paz destaca como la mas segura.
-    - las edades entre 20 y 40 años tienen una mayor frecuencia de incidentes viales.
-    - En las victimas el genero que predomina es el masculino.
-    - los Conductores son de mayoria Masculino y este rol segun los registro es la victima mayor de los siniestros viales.
-    - El vehiculo Moto son la de mayor cantidad de accidentes en la ciudad de Buenas Aires.
-    - La franja horaria de las 10:00 es en la que se presentan una mayor cantidad de victimas.
+  - Del periodo de años comprendido en la data, los años con mayor cantidad de incidentes son 2016 y 2018 con mas de 140.
 
-![Alt text](graficos1-1.png)
+  - La principal via donde se presentan los accidentes es en la Avenida y la Gral Paz destaca como la mas segura.
+
+  - las edades entre 20 y 40 años tienen una mayor frecuencia de incidentes viales.
+
+  - En las victimas el genero que predomina es el masculino.
+
+  - los Conductores son de mayoria Masculino y este rol segun los registro es la victima mayor de los siniestros viales.
+
+  - El vehiculo Moto son la de mayor cantidad de accidentes en la ciudad de Buenas Aires.
+
+  - La franja horaria de las 10:00 es en la que se presentan una mayor cantidad de victimas.
+
 
 ![Alt text](graficos-2.png)
+
+
+![Alt text](graficos1-1.png)
 
 
 
 
  ## DASHBOARD: 
+
 ![Alt text](image.png)
 
 
 
  ## ANALISIS DE KPIs Y VISUALIZACIONES
 
-  - 
+  - Indicador de  Porcentaje de Víctimas en Avenidas, Este KPI proporciona información sobre la proporción de víctimas que ocurren en avenidas en comparación con el número total de víctimas en todos los tipos de calles. 
 
   - Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior
   Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
@@ -95,7 +106,7 @@ Este repositorio contiene los archivos csv, objeto del desarrollo de este proyec
 
 ## Fuente de Datos
 
- [ENACOM Datos Abiertos](https://datosabiertos.enacom.gob.ar/home)
+ [BUENOS AIRES DATA](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
 
 
 
