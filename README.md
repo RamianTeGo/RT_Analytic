@@ -1,4 +1,7 @@
-<h1 align="center"> PROYECTO SINIESTROS VIALES 🚀</h1>
+<h1 align="center"> PROYECTO ACCIDENTES AEREOS 🚀</h1>
+
+
+![Alt text](image-1.png)
 
 
 ## INTRODUCCION
@@ -44,9 +47,13 @@ La data contiene estas campos de informacion:
 
 ## OBJETIVO
 
-Evaluar la disminución de un 10% la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior.
+- Evaluar la disminución de un 10% la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior.
 
-Definimos la tasa de fatalidad de la tripulación como el número total de tripulantes fallecidos en los accidentes registrados en la década a considerar, dividido en la cantidad total de accidentes aéreos ocurridos en este período de tiempo. Su fórmula es (Suma total de fallecidos en el período de tiempo / Suma total de accidentes en el período de tiempo).
+ Definimos la tasa de fatalidad de la tripulación como el número total de tripulantes fallecidos en los accidentes registrados en la década a considerar, dividido en la cantidad total de accidentes aéreos ocurridos en este período de tiempo. Su fórmula es (Suma total de fallecidos en el período de tiempo / Suma total de accidentes en el período de tiempo).
+
+- Evaluar el aumento de un 10% en la tasa de sobrevivientes de la última decada en comparación con la decada anterior
+
+
 
 ## PROCESOS
 
@@ -82,36 +89,54 @@ Este repositorio contiene los archivos csv, objeto del desarrollo de este proyec
 
 4. Preguntas 
 
-Cual es el total de muertes registradas, en el año con mas accidentes ocurridos?
+- Cual es el total de muertes registradas, en el año con mas accidentes ocurridos?
+
 
 ![Alt text](image.png)
+
 El año con más accidentes fue: 1946 y tuvo un total de 1649 personas abordo y un total 1327 muertes totales
 
 
-Que ocurrio en el accidente con mayor cantidad de fallecidos registrado?
+- Que ocurrio en el accidente con mayor cantidad de fallecidos registrado?
+
+
 En el año de 1977 en Tenerife, Canary Islands se presente el hecho con mayor cantidad de fallecidos, con 583 victimas. Ambos aviones fueron desviados a Tenerife a causa de un bombardeo en el aeropuerto de Las Palmas. Después de una demora prolongada, ambos aviones recibieron instrucciones de retroceder por la pista. El avión de KLM llegó a su punto de despegue mientras el avión de Pan Am aún se encontraba en la pista. El avión de Pan Am continuó por la pista y se perdió el desvío de la calle de rodaje. Había una densa niebla en la pista. El avión de KLM inició su carrera de despegue sin permiso con el avión de Pan Am aún en la pista. El controlador y el piloto de Pan Am enviaron por radio una advertencia al avión de KLM, pero no fueron escuchados porque las transmisiones simultáneas interferían entre sí. El avión de KLM chocó contra el avión de Pan Am justo cuando estaba despegando. Ambos aviones estallaron en llamas. KLM 234 + 14 tripulantes, Pan Am 326 + 9 tripulantes muertos. Todos los que iban a bordo del avión de KLM murieron. 
 
-Cual es la decada con mayor fatalidad?
+
+- Cual es la decada con mayor fatalidad?
+
 
 ![Alt text](output.png)
 
 la decada de los 70 es la mas fatal por tener la mayor cantidad de muertes con un 19.751.
 
-Cual es son los Operadores con mayores registros de fallecidos aereos en cada decada?
+
+
+
+- Cual es son los Operadores con mayores registros de fallecidos aereos en cada decada?
 
 ![Alt text](put.png)
 
 el operador 'Aeroflot' es la aerolínea de bandera de la Federación de Rusia en un analisis anterior se destaco como la lider de la lista con mas accidentes registrados y en este apartado desfortunamente tambien es el operador con mas fatalidad registrado para las decadas de los 60, 70 y 80.
 
-Cual era la ruta del accidente con mayor cantidad de fallecidos en decadas?
+
+
+- Cual era la ruta del accidente con mayor cantidad de fallecidos en decadas?
 
 ![Alt text](out.png)
 
+
 El accidente aéreo más mortífero registrado en el mundo ocurrió en Tenerife, Capital de las islas Canarias en España, donde dos aviones, el primero, un Boeing 747 de KLM Dutch Airlines se estrelló otro Boeing de la misma referencia de la aerolínea Pan American World en el aeropuerto Los Rodeos de Tenerife
+
+
 
 ## DASHBOARD:
 
+
+
 ![Alt text](aereos.png)
+
+
 
 ## ANALISIS DE KPIs 
 
@@ -122,6 +147,18 @@ El accidente aéreo más mortífero registrado en el mundo ocurrió en Tenerife,
 Un valor de -0.45 en el KPI "Disminución de la Tasa de Fatalidad" significa que la tasa de fatalidad de la tripulación ha disminuido en un 0.45% en los últimos 10 años en comparación con la década anterior. Si bien técnicamente hay una disminución, esta es relativamente pequeña, ya que es menos del 1%. En este caso, la disminución es modesta y no tan significativa como en el ejemplo anterior.
 
 En resumen, un valor de -0.45 indica que ha habido una ligera disminución en la tasa de fatalidad, pero no es tan pronunciada como una disminución del 10%. Puede significar que se ha logrado cierta mejora, pero es importante considerar si esta disminución es suficiente para alcanzar los objetivos de seguridad o si se deben tomar medidas adicionales para lograr una disminución más significativa.
+
+
+
+## CONCLUCION
+
+
+El análisis de accidentes aéreos es un proceso esencial para la seguridad aérea. Este proceso ha contribuido a reducir significativamente la tasa de accidentes aéreos en los últimos años. Para mejorar la seguridad aérea, se recomienda:
+
+Invertir en investigación y desarrollo de nuevas tecnologías y métodos de entrenamiento para mejorar la seguridad de las aeronaves.
+Fortalecer los programas de entrenamiento y certificación para los pilotos y el personal de tierra.
+Implementar sistemas de gestión de la seguridad para identificar y abordar los riesgos potenciales.
+
 
 
 
